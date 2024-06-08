@@ -26,6 +26,8 @@ class LocalStorage extends Component<{}, State> {
     };
   }
 
+  
+
   saveToLocalStorage = (): void => {
     const usersJSON = JSON.stringify(this.state.users);
     localStorage.setItem('users', usersJSON);
