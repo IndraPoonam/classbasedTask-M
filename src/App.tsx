@@ -4,6 +4,8 @@ import SignIn from './Components/FormPractice/SignIn';
 
 import Product from './Components/Medicine/Product';
 import LocalStorage from './Components/Storage/LocalStorage';
+import Weather from './Components/WeatherApp/Weather';
+import WeatherApp from './Components/WeatherApp/Weather';
 
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
   <div>
     {/* <Product/> */}
     {/* <SignIn/> */}
-    <LocalStorage/>
+    {/* <LocalStorage/> */}
+    <Weather/>
   </div>
   );
 }
