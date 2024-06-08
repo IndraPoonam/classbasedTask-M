@@ -71,7 +71,10 @@ class Weather extends Component<{}, WeatherAppState> {
           <Button variant="contained" color="primary" type="submit" style={{ marginLeft: '10px' }} >
             Get Weather
           </Button>
+
         </form>
+
+        
         {loading && <div>Loading...</div>}
         {error && <Typography color="error">{error}</Typography>}
         {weatherData && (
@@ -93,6 +96,7 @@ class Weather extends Component<{}, WeatherAppState> {
             </Typography>
           </Box>
         )}
+
       </Container>
     );
   }
